@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="dist/theme/moon.css">
+    <link rel="stylesheet" href="./style.css" />
+    <title>reveal.js</title>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>GraphQL vs. REST API</h1>
+        </section>
+        <section>
+          <h2>REST</h2>
+          <p class="fragment">Architectural style</p>
+          <p class="fragment">Client-server method</p>
+        </section>
+        <section>
+          <h2>REST principles</h2>
+          <p class="fragment">Client-Server Decouple</p>
+          <p class="fragment">Uniform Interface</p>
+          <p class="fragment">Stateless</p>
+          <p class="fragment">Cacheable</p>
+          <p class="fragment">Layered System</p>
+        </section>
+        <section>
+          <img src="./public/rest.png" alt="">
+        </section>
+        <section>
+          <h2>Working with REST APIs</h2>
+          <pre><code data-trim data-noescape>
+            GET - reads a representation of a specified source.
+          </code></pre>
+          <pre><code data-trim data-noescape>
+            POST - creates a new specified source.
+          </code></pre>
+          <pre><code data-trim data-noescape>
+            PUT - updates/replaces every resource in a collection.
+          </code></pre>
+          <pre><code data-trim data-noescape>
+            PATCH - modifies a source.
+          </code></pre>
+          <pre><code data-trim data-noescape>
+            DELETE - deletes a source.
+          </code></pre>
+        </section>
+
+        <section>
+          <h2>GraphQL</h2>
+          <p class="fragment">Query language for APIs</p>
+        </section>
+        <section>
+          <img src="./public/graphql.png" alt="">
+        </section>
+        <section>
+          <h2>Working with GraphQL</h2>
+          <pre><code data-trim data-noescape>
+            query - reads a representation of a specified source.
+          </code></pre>
+          <pre><code data-trim data-noescape>
+            mutation - creates a new specified source.
+          </code></pre>
+          <pre><code data-trim data-noescape>
+            subscription - updates/replaces every resource in a collection.
+          </code></pre>
+        </section>
+
+        <section>
+          <h2>Benefits of REST</h2>
+          <p class="fragment">Learning Curve</p>
+          <p class="fragment">Serialization</p>
+          <p class="fragment">Caching</p>
+          <p class="fragment">Complex Request</p>
+          <p class="fragment">Clean and Simple</p>
+          <p class="fragment">Standard HTTP Procedures</p>
+          <p class="fragment">Stateless</p>
+        </section>
+        <section>
+          <h2>Benefits of GraphQL</h2>
+          <class class="fragment">Fetching Data Through a Single API Endpoint</class><br>
+          <class class="fragment">No Over-fetching or Under-fetching</class><br>
+          <class class="fragment">Better Handling of Complex Systems and Microservices</class><br>
+          <class class="fragment">Fast and Secure</class><br>
+        </section>
+
+        <section>
+          <h2>Drawbacks of REST</h2>
+          <p class="fragment">Multiple Round Trips</p>
+          <p class="fragment">Over-fetching and Under-fetching</p>
+          <p class="fragment">Hierarchy</p>
+        </section>
+        <section>
+          <h2>Drawbacks of GraphQL</h2>
+          <p class="fragment">Learning Curve</p>
+          <p class="fragment">File Uploading</p>
+          <p class="fragment">Web Caching</p>
+          <p class="fragment">Complexity</p>
+        </section>
+
+        <section>
+          <h2>GraphQL vs REST </h2>
+          <img src="./public/showdown.png" alt="" class="img_tb">
+        </section>
+
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
